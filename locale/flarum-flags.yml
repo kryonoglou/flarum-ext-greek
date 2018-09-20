@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Αναφέρετε δημοσιεύσεις
+      view_flags_label: Προβολή δημοσιεύσεων με επισήμανση
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Διεύθυνση URL των Οδηγιών κοινότητας
+      title: Ρυθμίσεις επισήμανσης
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Σας ευχαριστούμε για την επισήμανση αυτής της ανάρτησης. Οι συντονιστές μας θα το εξετάσουν.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Ακατάλληλο
+      reason_inappropriate_text: "Αυτή η ανάρτηση είναι προσβλητική, καταχρηστική ή παραβιάζει τους <a>όρους χρήσης</a>."
+      reason_off_topic_label: "Εκτός θέματος"
+      reason_off_topic_text: Αυτή η ανάρτηση δεν σχετίζεται με την τρέχουσα συζήτηση και πρέπει να μετακινηθεί αλλού.
+      reason_other_label: Άλλο
+      reason_spam_label: Spam
+      reason_spam_text: Αυτή η ανάρτηση περιέχει μαζική αποστολή μηνυμάτων.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Καμία αναφορά
+      item_text: "{username} in <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Απόρριψη Αναφοράς
+      flagged_by_text: "Αναφέρθηκε από τον {username}"
+      flagged_by_with_reason_text: "Αναφέρθηκε από τον {username} σαν {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Αναφορά
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Αναφορά
+    flagged_posts: Αναφερόμενες αναρτήσεις

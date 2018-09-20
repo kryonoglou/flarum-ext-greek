@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Χρώμα
+      delete_tag_button: Διαγραφή Ετικέτας
+      delete_tag_confirmation: "Είστε σίγουρος ότι θέλετε να διαγράψετε την ετικέτα; Οι υπάρχων ετικέτες στις συζητήσεις δεν θα διαγραφούν."
+      description_label: Περιγραφή
+      hide_label: Απόκρυψη από όλες τις συζητήσεις
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Διαχειριστείτε την λίστα των διαθέσιμων ετικετών για να οργανώσετε τις συζητήσης σας
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Να επιτρέπεται η επεξεργασία ετικετών
+      restrict_by_tag_heading: Περιορισμός από ετικέτα
+      tag_discussions_label: Ετικέτα συζητήσεων
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " στο "
+      required_primary_heading: Απαιτούμενος αριθμός πρωτογενών ετικετών
+      required_primary_text: Γράψτε τον μικρότερο και τον μεγαλύτερο αριθμό των πρωτογενών ετικετών που θέλετε για τις συζητήσεις.
+      required_secondary_heading: Απαιτούμενος αριθμός δευτερευόντων ετικετών
+      required_secondary_text: Γράψτε τον μικρότερο και τον μεγαλύτερο αριθμό των δευτερευόντων ετικετών που θέλετε για τις συζητήσεις.
+      title: Ρυθμίσεις Ετικέτας
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Οι ετικέτες χρησιμοποιούνται για να κατηγοριοποιήσουν τις συζητήσεις. Οι πρωτογενείς ετικέτες είναι σαν τις συνηθισμένες κατηγορίες φόρουμ: Μπορούν να ταξινομηθούν σε μια ιεραρχία δύο επιπέδων. Οι δευτερεύουσες ετικέτες δεν έχουν ιεραρχία ή σειρά και είναι χρήσιμες για μικρο κατηγοριοποιήσεις."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Πρωτογενείς Ετικέτες
+      secondary_heading: Δευτερεύουσες ετικέτες
+      settings_button: Ρυθμίσεις
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Ετικέτες..|Επιλέγω {count} πρωτογενείς ετικέτες"
+      choose_secondary_placeholder: "Επιλέγω 1 παραπάνω ετικέτα|Επιλέγω {count} παραπάνω ετικέτες"
+      edit_title: "Edit Tags for {title}"
+      submit_button: => core.ref.okay
+      title: Διάλεξε μια η περισσότερες ετικέτες για την συζήτηση σου
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Διάλεξε ετικέτες
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Επεξεργασία ετικετών
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Εμφάνιση περισσότερων...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Αφαίρεση Ετικέτας
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} πρόσθεσε το {tagsAdded}."
+      added_and_removed_tags_text: "{username} πρόσθεσε το {tagsAdded} και αφαίρεσε το {tagsRemoved}."
+      removed_tags_text: "{username} αφαίρεσε το {tagsRemoved}."
+      tags_text: "{tags} ετικέτα|{tags} ετικέτες"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Διαγράφηκε
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Δημιουργία ετικέτας
+    name: Όνομα
+    tags: Ετικέτες

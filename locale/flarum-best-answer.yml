@@ -1,0 +1,12 @@
+flarum-best-answer:
+    admin:
+        permissions:
+            best_answer: => flarum-best-answer.ref.best_answer
+    forum:
+        this_best_answer: "Αυτή είναι η καλύτερη απάντηση"
+        remove_best_answer: "Αφαίρεση καλύτερης απάντησης"
+        header_best_answer: "Αναφέρθηκες από την δημιουργό για την καλύτερη απάντηση"
+        best_answer_button: => flarum-best-answer.ref.best_answer
+        best_answer: => flarum-best-answer.ref.best_answer
+    ref:
+      best_answer: 'Καλύτερη απάντηση'
