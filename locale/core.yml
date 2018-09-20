@@ -332,7 +332,7 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Ο παλιός τίτλος ήταν: "{old}"'
-      discussion_renamed_text: "Ο/η {username} άλλαξε τον τίτλο σε {new}."
+      discussion_renamed_text: "{username} άλλαξε τον τίτλο σε {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} αργότερα"
