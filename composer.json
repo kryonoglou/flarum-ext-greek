@@ -18,7 +18,7 @@
             "dev-master": "0.2.x-dev"
         },
         "flarum-extension": {
-            "title": "Greek",
+            "title": "Greek Language",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
