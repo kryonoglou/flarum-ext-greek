@@ -9,13 +9,13 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "Reply to #{number}"
+      reply_to_post_text: "Απάντηση σε #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "Ο/η {username} απάντησε στην ανάρτησή σας"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "Ο/η {username} σου είπε"
+      post_mentioned_text: "{username} απάντησε στην ανάρτησή σας"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} σου είπε"
 
     # These translations are displayed beneath individual posts.
     post:
