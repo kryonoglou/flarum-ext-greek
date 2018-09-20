@@ -1,0 +1,28 @@
+{
+    "name": "kryonoglou/flarum-ext-greek",
+    "type": "flarum-extension",
+    "description": "Greek language pack.",
+    "keywords": ["extension", "flarum", "greek", "locale", "translation"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Greek",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "el",
+            "title": "Greek"
+        }
+    }
+}
